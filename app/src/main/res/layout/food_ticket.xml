@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="63pt"
+    android:layout_height="wrap_content"
+    android:background="@color/grey"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    android:padding="3pt">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivImage"
+            android:layout_width="60pt"
+            android:layout_height="60pt"
+            app:srcCompat="@drawable/coffee_pot" />
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:textAlignment="center"
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="30pt"
+            android:text="CoffeePot"
+            android:textSize="20sp" />
+        <LinearLayout
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:text="Rs."
+                android:textColor="@android:color/black"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+            <TextView
+                android:textColor="@android:color/black"
+                android:textAlignment="center"
+                android:id="@+id/tvCash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

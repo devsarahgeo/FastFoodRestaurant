@@ -9,6 +9,7 @@ App features:
 <li>A Slideshow  (<b>using viewpager</b>)</li>
 <li>Adding and removing items to cart (<b>using Room database to store items in database</b>)</li>
 <li>Making payment using Paypal (<b>using Paypal sdk</b>)</li>
+<li>Making use of RxKotlin/RxJava to observe the changes in room database and schedule tasks on another thread.</li>
 </ul>
 
 1)Main Home screen(has a slideshow and list of food to order)
